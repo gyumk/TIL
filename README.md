@@ -10,4 +10,5 @@
 - 제어문?-추가예정
 - 타입 변환과 단축 평가?-추가예정
 - [객체 리터럴?](https://github.com/gyumk/TIL/blob/master/2020-04/0427-TIL.md#객체란)
-- [원시 값과 객체의 비교?]()
+- 원시 값과 객체의 비교?-추가예정
+- [빌트인 객체?](https://github.com/gyumk/TIL/tree/master/2020-05)
