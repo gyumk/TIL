@@ -38,4 +38,8 @@
 
 - [빌트인 객체?](https://github.com/gyumk/TIL/blob/master/2020-05/0507-TIL.md)
 
+- THIS ?
+
+- 실행 컨텍스트?
+
   
