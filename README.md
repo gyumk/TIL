@@ -34,7 +34,7 @@
 
 - 함수와 일급객체? 
 
-- 프로토타입? 
+- [프로토타입?](https://github.com/gyumk/TIL/blob/master/2020-05/0510-TIL.md)
 
 - [빌트인 객체?](https://github.com/gyumk/TIL/blob/master/2020-05/0507-TIL.md)
 
