@@ -43,7 +43,7 @@ function binarySearch(array, target) {
   let end = array.length - 1;
   let result = -1;
   while (start <= end) {
-    let mid = Math.floor((start + end) / 2);
+    const mid = Math.floor((start + end) / 2);
     if (target === array[mid]) {
       result = mid;
       break;
