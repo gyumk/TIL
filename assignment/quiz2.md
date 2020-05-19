@@ -65,3 +65,33 @@ console.log(binarySearch([1, 2, 3, 4, 5, 6], 0)); // -1
 console.log(binarySearch([1, 2, 3, 4, 5, 6], 7)); // -1
 ```
 
+</br>
+
+#### 2-1. 버블정렬
+
+---
+
+버블 정렬을 통해 주어진 배열(array)을 정렬하는 함수를 구현하라. 
+
+단, 어떠한 빌트인 함수도 사용하지 않고 for 문을 사용하여 구현하여야 한다.
+
+``` javascript
+function bubbleSort(array) {
+  const length = array.length - 1;
+  for (let i = length; i > 0; i--) {
+    for (let j = 0; j < i; j++) {
+      if (array[j] > array[j + 1]) {
+        const change = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = change;
+      }
+    }
+  }
+  return array;
+}
+
+console.log(bubbleSort([2, 4, 5, 1, 3])); // [1, 2, 3, 4, 5]
+console.log(bubbleSort([5, 2, 1, 3, 4, 6])); // [1, 2, 3, 4, 5, 6]
+console.log(bubbleSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
+```
+
