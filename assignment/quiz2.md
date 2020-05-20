@@ -95,3 +95,49 @@ console.log(bubbleSort([5, 2, 1, 3, 4, 6])); // [1, 2, 3, 4, 5, 6]
 console.log(bubbleSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
 ```
 
+</br>
+
+#### 2-2. 선택정렬 
+
+---
+
+선택 정렬을 통해 주어진 배열(array)을 정렬하는 함수를 구현하라.
+
+단, 어떠한 빌트인 함수도 사용하지 않고 for 문을 사용하여 구현하여야 한다.
+
+``` javascript
+function selectionSort(array) {
+  const arrLength = array.length;
+  for (let i = 0; i < arrLength; i++) {
+    let min = i;
+    for (let j = i + 1; j < arrLength + 1; j++) {
+      if (array[j] < array[min]) {
+        min = j;
+      }
+    }
+    const change = array[i];
+    array[i] = array[min];
+    array[min] = change;
+  }
+  return array;
+}
+
+console.log(selectionSort([3, 1, 0, -1, 4, 2])); // [-1, 0, 1, 2, 3, 4]
+console.log(selectionSort([2, 4, 5, 1, 3])); // [1, 2, 3, 4, 5]
+console.log(selectionSort([5, 2, 1, 3, 4, 6])); // [1, 2, 3, 4, 5, 6]
+```
+
+</br>
+
+#### 2-3. 삽입정렬
+
+---
+
+삽입 정렬을 통해 주어진 배열(array)을 정렬하는 함수를 구현하라. 
+
+단, 어떠한 빌트인 함수도 사용하지 않고 for 문을 사용하여 구현하여야 한다.
+
+``` javascript
+
+```
+
