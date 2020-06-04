@@ -38,7 +38,6 @@
 - Set과 Map
 - 브라우저의 렌더링 과정
 - DOM
-
 - [이벤트](https://github.com/gyumk/TIL/blob/master/2020-06/0602-TIL.md)
-
-  
+- [타이머](https://github.com/gyumk/TIL/blob/master/2020-06/0604-TIL.md#timer)
+- [비동기 프로그래밍](https://github.com/gyumk/TIL/blob/master/2020-06/0604-TIL.md#async-programming)
