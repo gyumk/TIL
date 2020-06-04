@@ -22,7 +22,11 @@ const activeCount = () => {
 // Todo-Render
 const render = () => {
   let html = '';
-  todos.forEach(todo => { html += `<li id="${todo.id}" class="todo-item"><input id="ck-${todo.id}" class="checkbox" type="checkbox" ${todo.completed ? 'checked' : ''}><label for="ck-${todo.id}">${todo.content}</label><i class="remove-todo far fa-times-circle"></i></li>`; });
+  todos.forEach(todo => { html += `<li id="${todo.id}" class="todo-item">
+  <input id="ck-${todo.id}" class="checkbox" type="checkbox" ${todo.completed ? 'checked' : ''}>
+  <label for="ck-${todo.id}">${todo.content}</label>
+  <i class="remove-todo far fa-times-circle"></i>
+  </li>`; });
   $todos.innerHTML = html;
 
   // Todo-Completed-Count Event
