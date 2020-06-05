@@ -70,6 +70,7 @@ const allCheck = () => {
 const removeCompleted = () => {
   todos = todos.filter(todo => !todo.completed);
   render();
+  $allSelect.checked = false;
 };
 
 
