@@ -49,7 +49,8 @@ const selectTodo = id => {
 };
 
 const toggleTodo = checked => {
-  ajax.patch('/todos', todos, _todos => {
+  const completed = { completed : checked };
+  ajax.patch('/todos', completed, _todos => {
     todos = todos.map(todo => ({ ...todo, completed: checked }));
     render();
   });
