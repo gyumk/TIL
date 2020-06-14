@@ -41,3 +41,6 @@
 - [이벤트](https://github.com/gyumk/TIL/blob/master/2020-06/0602-TIL.md)
 - [타이머](https://github.com/gyumk/TIL/blob/master/2020-06/0604-TIL.md#timer)
 - [비동기 프로그래밍](https://github.com/gyumk/TIL/blob/master/2020-06/0604-TIL.md#async-programming)
+- [Ajax](https://github.com/gyumk/TIL/blob/master/2020-06/0607-TIL.md)
+- [REST API](https://github.com/gyumk/TIL/blob/master/2020-06/0607-TIL.md#rest-api)
+- [Promise](https://github.com/gyumk/TIL/blob/master/2020-06/0611-TIL.md)
